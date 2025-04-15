@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(39, 40, 41);
+    font-weight: bold;  
+}
+
+nav ul li a:hover{
+    color: rgb(48, 209, 203);
+    transition: .4s;
+}
+
+.detail{
+    margin-left: 10%;
+    margin-top: 11%;
+}
+
+.detail h1{
+    font-size: 60px;
+    color: #212121;
+}
+
+span{
+    color: #D9B99B;
+}
+
+.detail p{
+    color: #8FBC8F;
+    line-height: 70px;
+}
+
+.detail a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.person{
+    height: 75%;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    transform: translateX(-50%S);
+    transition: bottom 1s, left 1s;
+}
+
+.shape{
+    height: 79%;
+    width: 43%;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-40%S);
+    transition: bottom 1s, left 1s;
+    left: 53%;
+}
+
+.Instag{
+    width: 34%;
+    margin: 230px ;
+    margin-left: 0px;
+    
+}
+
+.images:hover .person{
+    left: 64%;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.about-text{
+    width: 560px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.about-text span{
+    color: #D9B99B;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h2{
+    color: #212121;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: #212121;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 23px;
+    margin-bottom: 45px;
+}
+.about-text p{
+    color: #212121;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+
+.facebook{
+    color: #212121;
+    font-size: 400%;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    justify-content: center;   
+}
+
+.facebook:hover{
+    color: #D9B99B;
+    transition: 0.2s;
+}
+
+.instagram{
+    color: #212121;
+    font-size: 400%;
+    text-decoration: none;
+}
+
+.instagram:hover{
+    color: #D9B99B;
+    transition: 0.2s;
+}
+
+.comment{
+    color: #212121;
+    font-size: 100%;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    justify-content: center;  
+}
+
+
+.comments-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comment {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
